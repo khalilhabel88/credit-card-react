@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import CreditCard from"./component/Credit-card";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <CreditCard/>
+    <img className="masterlogo" alt="#"src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/300px-MasterCard_Logo.svg.png"/>
     </div>
   );
 }
